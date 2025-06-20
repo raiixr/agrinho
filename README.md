@@ -2,8 +2,6 @@
 
 Bem-vindo ao repositório do meu projeto para o **Programa Agrinho**!
 
-🔗 Acesse o site aqui: [https://raiixr.github.io/raiixr](https://raiixr.github.io/raiixr)
-
 ---
 
 ## 📚 Sobre o Projeto
