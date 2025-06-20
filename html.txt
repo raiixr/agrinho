@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Agrinho - Nome do Aluno</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Projeto Agrinho</h1>
+    <p>Por Nome do Aluno</p>
+    <p>Educacao, Sustentabilidade e Cidadania</p>
+  </header>
+
+  <nav
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#atividades">Atividades</a></li>
+      <li><a href="#video">Vídeo</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>O que é o Agrinho?</h2>
+      <p>O Agrinho é um projeto educacional que ensina valores importantes como respeito à natureza, cidadania, sustentabilidade e vida no campo. Envolve alunos, professores e a comunidade.</p>
+    </section>
+
+    <section id="atividades">
+      <h2>Atividades do Projeto</h2>
+      <ul>
+        <li>🌿 Plantio de hortas na escola</li>
+        <li>♻️ Oficinas de reciclagem</li>
+        <li>📚 Apresentações culturais</li>
+      </ul>
+    </section>
+
+    <section id="video">
+      <h2>Vídeo Educativo</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/8W8xG3WhpU8" title="Vídeo Agrinho" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section class="galeria">
+      <h2>Galeria de Fotos</h2>
+      <img src="https://via.placeholder.com/300x200" alt="Atividade 1" />
+      <img src="https://via.placeholder.com/300x200" alt="Atividade 2" />
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Nome do Aluno | © 2025 Projeto Agrinho</p>
+  </footer>
+</body>
+</html>
